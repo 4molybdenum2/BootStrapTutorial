@@ -45,8 +45,11 @@
                     <h1>Ristorante con Fusion</h1>
                     <p>We take inspiration from the World's best cuisines, and create a unique fusion experience. Our lipsmacking creations will tickle your culinary senses!</p>
                 </div>
-                <div class="col-12 col-sm align-self-center">
+                <div class="col-12 col-sm-3 align-self-center">
                     <img src="img/logo.png" class="img-fluid">
+                </div>
+                <div class="col-12 col-sm-3 align-self-center">
+                    <button class="btn btn-warning btn-sm">Reserve Table</button>
                 </div>
             </div>
         </div>
@@ -104,6 +107,46 @@
                 </div>
                 
             </div>
+        </div>
+        
+            <br>
+            <br>
+        
+        <div class="col-8 offset-2 col-xs-12">
+            <div class="card">
+                <h3 class="card-header bg-warning text-white">Reserve a table</h3>
+                <div class="card-body">
+                    <div class="form-group row">
+                        <label for="numberguests" class="col-12 col-md-2 col-form-label">Number of<br>Guests</label>
+                        <div class="col-7 col-md-7 align-self-center">
+                            <input type="radio" name="no of guests" id="guests" value="1"> 1 &nbsp;
+                            <input type="radio" name="no of guests" id="guests" value="1"> 2 &nbsp;
+                            <input type="radio" name="no of guests" id="guests" value="1"> 3 &nbsp;
+                            <input type="radio" name="no of guests" id="guests" value="1"> 4 &nbsp;
+                            <input type="radio" name="no of guests" id="guests" value="1"> 5 &nbsp;
+                            <input type="radio" name="no of guests" id="guests" value="1"> 6 &nbsp;
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="telnum" class="col-12 col-md-2 col-form-label">Date and<br>Time</label>
+                        <div class="col-5 col-md-3">
+                            <input type="tel" class="form-control" id="date" name="date" placeholder="Date">
+                        </div>
+                        <div class="col-7 col-md-7">
+                            <input type="tel" class="form-control" id="time" name="time" placeholder="Time">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="offset-md-2 col-md-10">
+                            <button type="submit" class="btn btn-primary">Reserve</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+        <br>
         </div>
     </div>
 
